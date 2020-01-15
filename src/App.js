@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import "./styles.css";
 import { connect } from "react-redux";
 import * as actions from "./Actions-creater";
-import Reusebutton from "../src/reusebutton.js";
+import Reusebutton from "../src/button";
 class App extends Component {
   componentDidMount() {
     this.props.list();
